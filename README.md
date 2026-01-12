@@ -13,8 +13,6 @@ Este repositorio documenta mi aprendizaje autodidacta de Java. Aquí encontrará
 - Spring Boot (futuro)
 
 🔧 Herramientas
-- Java (JDK 17 u otros)
-- Editor: Sublime Text
 - Git y GitHub
 
 👨‍💻 Objetivo
