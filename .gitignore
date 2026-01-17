@@ -1,0 +1,17 @@
+# Ignora archivos comilados de Java
+*.class
+
+# Ignora archivos de IDEs comunes
+.idea/
+.iml
+.eclipse
+.vscode/
+
+# Ignora archivos de build
+target/
+build/
+bin/
+
+# Ignora logs y temporales
+*.log
+*.tmp
