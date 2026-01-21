@@ -7,8 +7,8 @@ public class EntradaDatos {
 		int edad = entrada.nextInt();
 		entrada.nextLine(); // "Soluciona" el problema del Buffer consumiendolo
 		System.out.println("Introduce tu nombre, por favor:");
-		String nombre_usuario = entrada.nextLine(); // Se deberia poner primero este
-		System.out.println("Hola " + nombre_usuario + ", Tienes " + edad + " años.");
+		String nombreUsuario = entrada.nextLine(); // Se deberia poner primero este
+		System.out.println("Hola " + nombreUsuario + ", Tienes " + edad + " años.");
 		entrada.close(); // Cierra el Scanner
 	}
 }

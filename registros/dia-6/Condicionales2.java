@@ -4,11 +4,11 @@ public class Condicionales2 {
 		// Usando Switch-case
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Ingraduce el nº del mes a saber:");
-		int numero_mes = entrada.nextInt();
+		int numeroMes = entrada.nextInt();
 		entrada.nextLine();
 
 		// Uso Nº 1
-		switch (numero_mes) {
+		switch (numeroMes) {
 		case 1:
 			System.out.println("Enero");
 			break; // Detiene la condicion
@@ -51,9 +51,9 @@ public class Condicionales2 {
 
 	    // Uso Nº2
 	    System.out.println("Ingraduce dia de la semana:");
-		String dia_semana = entrada.nextLine();
+		String diaSemana = entrada.nextLine();
 
-		String resultado = switch (dia_semana) { // Se puede guardar en una variable
+		String resultado = switch (diaSemana) { // Se puede guardar en una variable
 		case "Lunes", "Martes", "Miercoles", "Juves", "Viernes" -> "Laborable"; // Se puede agrupar
 		case "Sabado", "Domingo" -> "Festivo";
 		default -> { // Asi se puede ejecutar varias lineas de codigo
