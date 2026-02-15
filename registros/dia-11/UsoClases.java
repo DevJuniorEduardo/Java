@@ -2,14 +2,14 @@ public class UsoClases {
 	public static void main(String[] args) {
 
 		UsoObjetos renaul = new UsoObjetos();
-		renaul.ancho = 1520.5;
+		renaul.setColor("Azul");
 		renaul.arrancar();
 
 		UsoObjetos mazda = new UsoObjetos();
-		mazda.color = "Azul";
-		mazda.setRuedas(4);
+		mazda.setRuedas(3);
 		mazda.girar();
 
 		System.out.println("El coche tiene: " + mazda.getRuedas());
+		System.out.println("El coche tiene color: " + renaul.getColor());
 	}
 }
