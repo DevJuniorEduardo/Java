@@ -13,13 +13,13 @@ public class UsoObjetos {
 	private int ruedas;
 
 	// Un metodo de entrada, Setter
-	public void setRuedas(int r) {
-		if (r < 3 || r > 4) System.out.println("El numero de ruedas no puede ser ese.");
-		else ruedas = r;
+	public void setRuedas(int ruedas) {
+		if (ruedas < 3 || ruedas > 4) System.out.println("El numero de ruedas no puede ser ese.");
+		else this.ruedas = ruedas;
 	}
 
-	public void setColor(String c) {
-		color = c;
+	public void setColor(String color) {
+		this.color = color; // "This" ayuda a diferenciar el campo de clase (con el this) y el parametro
 	}
 
 	// Como leer o devolver un valor encapsulado, Getter
