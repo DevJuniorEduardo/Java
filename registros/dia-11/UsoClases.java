@@ -1,15 +1,11 @@
 public class UsoClases {
 	public static void main(String[] args) {
 
-		UsoObjetos renaul = new UsoObjetos();
-		renaul.setColor("Azul");
-		renaul.arrancar();
+		UsoObjetos coche1 = new UsoObjetos();
 
-		UsoObjetos mazda = new UsoObjetos();
-		mazda.setRuedas(3);
-		mazda.girar();
+		coche1.setAsientosCuero("si");
 
-		System.out.println("El coche tiene: " + mazda.getRuedas());
-		System.out.println("El coche tiene color: " + renaul.getColor());
+		System.out.println("Peso: " + coche1.getPeso());
+		System.out.println("Precio: " + coche1.getPrecio());
 	}
 }
